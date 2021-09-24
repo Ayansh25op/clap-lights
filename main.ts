@@ -3,9 +3,9 @@ input.onSound(DetectedSound.Loud, function () {
     if (lightsOn) {
         basic.showLeds(`
             # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
+            # . . . #
+            # . . . #
+            # . . . #
             # # # # #
             `)
     } else {
@@ -13,7 +13,7 @@ input.onSound(DetectedSound.Loud, function () {
     }
 })
 let lightsOn = false
-input.setSoundThreshold(SoundThreshold.Loud, 150)
+input.setSoundThreshold(SoundThreshold.Loud, 103)
 basic.forever(function () {
 	
 })

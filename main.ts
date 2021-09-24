@@ -3,9 +3,9 @@ input.onSound(DetectedSound.Loud, function () {
     if (lightsOn) {
         basic.showLeds(`
             # # # # #
-            # . . . #
-            # . . . #
-            # . . . #
+            # # # # #
+            # # # # #
+            # # # # #
             # # # # #
             `)
     } else {
